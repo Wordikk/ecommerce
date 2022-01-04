@@ -13,6 +13,7 @@ const Cart = ({ cart, handleUpdateCartQty, handleRemoveFromCart, handleEmptyCart
             <Link to="/" className={classes.link}><b>Dodaj przedmioty do koszyka.</b></Link>
         </Typography>
     );
+    
     const FilledCart = () => (
         <>
             <Grid container spacing={3}>

@@ -64,7 +64,7 @@ const AddresForm = ({ checkoutToken, next }) => {
                     <Grid container spacing={3}>
                         <FormInput required name='firstName' label='Imię'/>
                         <FormInput required name='lastName' label='Nazwisko'/>
-                        <FormInput required name='addres1' label='Adres'/>
+                        <FormInput required name='address1' label='Adres'/>
                         <FormInput required name='email' label='Email'/>
                         <FormInput required name='city' label='Miasto'/>
                         <FormInput required name='zip' label='Kod pocztowy'/>
