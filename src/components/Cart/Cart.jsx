@@ -28,7 +28,7 @@ const Cart = ({ cart, handleUpdateCartQty, handleRemoveFromCart, handleEmptyCart
                     Do zapłaty: { cart.subtotal.formatted_with_code }
                 </Typography>
                 <div>
-                    <Button className={classes.emptyButton} size="large" type="button" variant="contained" color="secondary" onClick={handleEmptyCart}>Wyczyść Koszyk</Button>
+                    <Button className={classes.emptyButton} size="large" type="button" variant="contained" color="secondary" onClick={handleEmptyCart}>Wyczyść</Button>
                     <Button component={Link} to="/checkout" className={classes.checkoutButton} size="large" type="button" variant="contained" color="primary">Do Kasy</Button>
                 </div>
             </div>
