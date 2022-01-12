@@ -85,7 +85,7 @@ const PaymentForm = ({
                   disabled={!stripe}
                   color="primary"
                 >
-                  Zapłac {checkoutToken.live.subtotal.formatted_with_code}
+                  Zapłać {checkoutToken.live.subtotal.formatted_with_code}
                 </Button>
               </div>
             </form>

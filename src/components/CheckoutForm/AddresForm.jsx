@@ -16,11 +16,11 @@ import FormInput from "./CustomTextField";
 
 const AddresForm = ({ checkoutToken, next }) => {
   const [shippingCountries, setShippingCountries] = useState([]);
-  const [shippingCountry, setShippingCountry] = useState("");
+  const [shippingCountry, setShippingCountry] = useState('');
   const [shippingSubdivisions, setShippingSubdivisions] = useState([]);
-  const [shippingSubdivision, setShippingSubdivision] = useState("");
+  const [shippingSubdivision, setShippingSubdivision] = useState('');
   const [shippingOptions, setShippingOptions] = useState([]);
-  const [shippingOption, setShippingOption] = useState("");
+  const [shippingOption, setShippingOption] = useState('');
   const methods = useForm();
 
   const countries = Object.entries(shippingCountries).map(([code, name]) => ({
